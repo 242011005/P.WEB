@@ -4,7 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\ModelsPenduduk;
+use App\Models\Penduduk;
 
 class PendudukSeeder extends Seeder
 {
@@ -14,23 +14,32 @@ class PendudukSeeder extends Seeder
     public function run(): void
     {
         Penduduk::create([
-            'nik'=>'3507123456780001',
-            'nama'=>'Budi Santoso',
-            'jk'=>'L',
-            'alamat'=>'Jl.Merdeka No. 10, RT01 RW 01'
+        'nik' => '3507123456780001',
+        'nama' => 'Budi Santoso',
+        'jk' => 'L',
+        'alamat' => 'Jl. Merdeka No. 10, RT 01 RW 01'
+        ]);
 
-
-        ])
-        
         Penduduk::create([
-            'nik'=>'3507123456780002',
-            'nama'=>'Siti khotimah',
-            'jk'=>'L',
-            'alamat'=>'Jl.Mawar No. 05, RT02 RW 01'
-            
+        'nik' => '3507123456780002',
+        'nama' => 'Joko Santoso',
+        'jk' => 'L',
+        'alamat' => 'Jl. Suhat No. 10, RT 01 RW 01'
+        ]);
 
-        ])
+        Penduduk::create([
+        'nik' => '3507123456780003',
+        'nama' => 'Prono Jiwo',
+        'jk' => 'L',
+        'alamat' => 'Jl. Bromo No. 10, RT 01 RW 01'
+        ]);
 
-        
+        Penduduk::create([
+        'nik' => '3507123456780004',
+        'nama' => 'Putri Kinasih',
+        'jk' => 'P',
+        'alamat' => 'Jl. Malang '
+        ]);
+
     }
 }
