@@ -117,7 +117,7 @@
           <div class="container-fluid">
             <div class="row">
               <div class="col">
-                <h4 class="mb-0">Sugeng rawuh poro pengunjung</h4>
+                <h4 class="mb-0">Welcome Back to My Guysss!!!!</h4>
                 @yield('content')
               </div>
             </div>
